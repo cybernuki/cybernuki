@@ -1,5 +1,14 @@
 ### Hi there 👋
 
+I'm Jhonatan a Software Engineer who love make incredible things with programming.
+Actually I'm part of the <a href="https://tul.com.co" target="_blank">TUL</a> team developing the backend area.
+<p>
+  <a href="https://twitter.com/ookanuki" target="_blank">
+    <img alt="Twitter: ookanuki " src="https://img.shields.io/twitter/follow/ookanuki .svg?style=social" />
+  </a>
+</p>
+
+
 <!--
 **cybernuki/cybernuki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
