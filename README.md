@@ -1,11 +1,6 @@
 ### Hi there 👋
 
 I'm Jhonatan a Software Engineer who love make incredible things with programming.
-<p>
-  <a href="https://twitter.com/ookanuki" target="_blank">
-    <img alt="Twitter: ookanuki " src="https://img.shields.io/twitter/follow/ookanuki .svg?style=social" />
-  </a>
-</p>
 
 
 <!--
