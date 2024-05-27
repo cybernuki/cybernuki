@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm Jhonatan a Software Engineer who love make incredible things with programming.
+I'm Jhonatan a Software Engineer who loves making incredible things with programming.
 
 
 <!--
