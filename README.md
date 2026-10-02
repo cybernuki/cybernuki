@@ -22,6 +22,12 @@ Ingeniero freelance. Ayudo a equipos a conectar la IA a sus sistemas y a llevarl
 - **The Herald, bots and agents for Slack, Discord and Teams.** I build triage and support bots that classify and answer.
 - **The Smith, vibe-coded app to production.** I take your Lovable, Cursor or Claude app live.
 
+### Fixed-price package: deploy your AI-built app to production
+
+<a href="https://www.upwork.com/services/product/development-it-deploy-your-ai-built-app-to-production-2106139410396282667"><img src="assets/catalog-deploy.gif" width="830" alt="From prototype to production: hardcoded API keys, no tests and no monitoring become rotated keys, CI/CD with tests, error and uptime alerts, and your domain with HTTPS."></a>
+
+Three tiers, from a secure deploy to a full production setup. **[See the package on Upwork →](https://www.upwork.com/services/product/development-it-deploy-your-ai-built-app-to-production-2106139410396282667)**
+
 ## Quests
 
 | Quest | What it is |
