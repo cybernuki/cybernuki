@@ -1,0 +1,20 @@
+{
+  "name": "cybernuki-profile",
+  "version": "1.0.0",
+  "description": "Build tooling for the GitHub profile README assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render": "node scripts/render.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": "true",
+  "type": "module",
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "sharp": "^0.35.5"
+  }
+}
