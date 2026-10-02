@@ -1,0 +1,33 @@
+/* Obsidian Guild tokens, shared by every asset. Fonts load from Google Fonts at render time. */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;1,400;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+:root {
+  --void: #0a0a0b; --obsidian: #14171a; --obsidian-2: #1b1f23; --iron: #2a2f33;
+  --gold: #e9d19c; --gold-deep: #b78f6d; --bone: #ebded2; --ash: #a3a09a; --ember: #c8452b;
+  --font-title: "Cinzel", Georgia, serif;
+  --font-lore: "Cormorant Garamond", Georgia, serif;
+  --font-ui: "Inter", "Segoe UI", sans-serif;
+  --font-hud: "JetBrains Mono", Consolas, monospace;
+  --corner: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'><path d='M1 17 V5 Q1 1 5 1 H17' fill='none' stroke='%23e9d19c' stroke-width='1.2'/><path d='M4 12 V6.5 Q4 4 6.5 4 H12' fill='none' stroke='%23b78f6d' stroke-width='.8'/><rect x='0' y='0' width='3' height='3' transform='rotate(45 1.5 1.5)' fill='%23e9d19c'/></svg>");
+}
+* { box-sizing: border-box; margin: 0; }
+html, body { background: var(--void); color: var(--bone); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
+.hud { font-family: var(--font-hud); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--ash); }
+.title { font-family: var(--font-title); letter-spacing: .08em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
+.lore { font-family: var(--font-lore); font-style: italic; color: var(--bone); }
+.grain { position: absolute; inset: 0; pointer-events: none; opacity: .045; z-index: 5;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+.vignette { position: absolute; inset: 0; pointer-events: none; z-index: 4; background: radial-gradient(120% 100% at 50% 45%, transparent 45%, rgba(0,0,0,.85)); }
+.corner, .frame .c { position: absolute; background: var(--corner) center / contain no-repeat; pointer-events: none; }
+.corner { width: 22px; height: 22px; z-index: 6; }
+.corner.tl { top: 14px; left: 14px; } .corner.tr { top: 14px; right: 14px; transform: scaleX(-1); }
+.corner.bl { bottom: 14px; left: 14px; transform: scaleY(-1); } .corner.br { bottom: 14px; right: 14px; transform: scale(-1); }
+.frame { position: relative; background: linear-gradient(180deg, var(--obsidian-2), var(--obsidian)); border: 1px solid transparent;
+  border-image: linear-gradient(135deg, var(--gold-deep), var(--iron) 30%, var(--iron) 70%, var(--gold-deep)) 1; }
+.frame .c { width: 18px; height: 18px; }
+.frame .tl { top: -5px; left: -5px; } .frame .tr { top: -5px; right: -5px; transform: scaleX(-1); }
+.frame .bl { bottom: -5px; left: -5px; transform: scaleY(-1); } .frame .br { bottom: -5px; right: -5px; transform: scale(-1); }
+.btn { --cut: 14px; display: inline-flex; align-items: center; justify-content: center; height: 52px; padding: 0 30px; font-family: var(--font-title); font-weight: 600; font-size: 15px; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap;
+  clip-path: polygon(var(--cut) 0, calc(100% - var(--cut)) 0, 100% 50%, calc(100% - var(--cut)) 100%, var(--cut) 100%, 0 50%); position: relative; }
+.btn.primary { background: linear-gradient(180deg, #d5583a, #9e3220); color: #fff4e6; box-shadow: inset 0 0 0 1px rgba(233,209,156,.5); }
+.btn.secondary { background: linear-gradient(180deg, #23282c, #171a1d); color: var(--gold); }
+.btn.secondary::before { content: ""; position: absolute; inset: 1px; clip-path: inherit; box-shadow: inset 0 0 0 1px var(--gold-deep); }

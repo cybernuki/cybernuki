@@ -1,0 +1,28 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Banner</title>
+<link rel="stylesheet" href="shared.css">
+<style>
+body { width: 1280px; height: 400px; position: relative; overflow: hidden; }
+.bg { position: absolute; inset: 0; background:
+  radial-gradient(55% 80% at 78% 105%, rgba(200,69,43,.30), transparent 70%),
+  radial-gradient(45% 70% at 18% 20%, rgba(233,209,156,.08), transparent 70%),
+  linear-gradient(180deg, #0d0e10, var(--void)); }
+.stage { position: absolute; inset: 0; z-index: 3; display: grid; place-content: center; justify-items: center; gap: 14px; text-align: center; }
+h1 { font-size: 78px; line-height: 1; letter-spacing: .1em; font-weight: 700; text-shadow: 0 0 40px rgba(233,209,156,.2); }
+.lore { font-size: 31px; }
+.orn { display: flex; align-items: center; gap: 14px; width: 420px; }
+.orn::before, .orn::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--gold-deep), transparent); }
+.orn i { width: 9px; height: 9px; transform: rotate(45deg); border: 1px solid var(--gold); box-shadow: 0 0 10px rgba(233,209,156,.4); }
+.hud { font-size: 13px; letter-spacing: .2em; margin-top: 4px; }
+</style>
+<div class="bg"></div>
+<div class="stage">
+  <span class="hud">Chapter I · the summons</span>
+  <h1 class="title">Jhonatan Arenas</h1>
+  <div class="orn"><i></i></div>
+  <p class="lore">I connect your AI to your systems, and ship it.</p>
+  <span class="hud">Freelance engineer · Colombia · UTC-5</span>
+</div>
+<div class="vignette"></div><div class="grain"></div>
+<div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>
