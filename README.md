@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" width="830" alt="Jhonatan Arenas. I connect your AI to your systems, and ship it. Freelance engineer, Colombia, UTC-5.">
+<a href="https://portfolio-jhonatan-orpin.vercel.app/en"><img src="assets/banner.png" width="830" alt="Jhonatan Arenas. I connect your AI to your systems, and ship it. Freelance engineer, Colombia, UTC-5."></a>
 
 </div>
 
@@ -43,4 +43,4 @@ Have a prototype, an agent or a team to set up? Tell me the quest.
 
 <a href="https://www.upwork.com/freelancers/~010b0c14042b7427f7"><img src="assets/cta-upwork.png" height="52" alt="Hire me on Upwork"></a> <a href="https://linkedin.com/in/jhonatan-arenas-developer"><img src="assets/cta-linkedin.png" height="52" alt="Jhonatan Arenas on LinkedIn"></a> <a href="https://github.com/cybernuki"><img src="assets/cta-github.png" height="52" alt="See the code on GitHub"></a>
 
-<!-- PORTFOLIO_URL -->
+**Portfolio:** [portfolio-jhonatan-orpin.vercel.app](https://portfolio-jhonatan-orpin.vercel.app/en) · [versión en español](https://portfolio-jhonatan-orpin.vercel.app/es)
